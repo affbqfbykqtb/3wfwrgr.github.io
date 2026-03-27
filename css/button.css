@@ -1,0 +1,42 @@
+#header-button {
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #fafafa;
+  background-color: #85da7a;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+
+.logo {
+
+  font-size: 16px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #fafafa;
+  background-color: #85da7a;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 10px 5px;
+
+
+}
+
+
+.logo:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+/* ofc its taken from somwhere else but i edited it a bit so its not exactly the same as the original */

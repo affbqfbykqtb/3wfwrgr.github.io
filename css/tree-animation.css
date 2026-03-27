@@ -1,0 +1,58 @@
+.tree ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
+  overflow: hidden;
+  height: 0;
+  transition: height 0.3s ease;
+}
+
+.tree li {
+  line-height: 1.6;
+  position: relative;
+}
+
+.tree li::before {
+  content: "│   ";
+  position: absolute;
+  left: -20px;
+  color: #555;
+}
+
+.tree li:last-child::before {
+  content: "    ";
+}
+
+.folder {
+  cursor: pointer;
+  color: #9cdcfe;
+}
+
+.folder::before {
+  content: "├─📂 ";
+}
+
+.folder.open::before {
+  content: "└─📂 ";
+}
+
+.file {
+  color: #dcdcaa;
+}
+
+.file::before {
+  content: "├─📄 ";
+}
+
+.file:last-child::before {
+  content: "└─📄 ";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
